@@ -1,0 +1,30 @@
+Package: fmpcloudr
+Title: R Access to the 'FMP Cloud' and 'Financial Modeling Prep' API
+Version: 0.1.4
+Authors@R: 
+    person(given = "Anthony",
+           family = "Balentine",
+           role = c("aut", "cre"),
+           email = "exploringfinance1@gmail.com")
+Maintainer: Anthony Balentine <exploringfinance1@gmail.com>
+URL: https://exploringfinance.github.io/fmpcloudr/
+BugReports: https://github.com/exploringfinance/fmpcloudr/issues
+Description: Use R to access to the 'FMP Cloud' API <https://fmpcloud.io/> and 
+    'Financial Modeling Prep' API <https://financialmodelingprep.com/developer/docs/>.
+    Data available includes stock prices, market indexes, company fundamentals,
+    13F holdings data, and much more. A valid API token must be set to enable
+    functions. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    jsonlite,
+    httr,
+    dplyr,
+    magrittr,
+    tidyr,
+    lubridate
+Suggests: 
+    testthat
