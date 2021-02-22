@@ -1,0 +1,13 @@
+^fmpcloudr\.Rproj$
+^\.Rproj\.user$
+^README\.Rmd$
+^LICENSE\.md$
+^cran-comments\.md$
+^CRAN-RELEASE$
+.git/
+^\.github$
+.proj.user
+.gitignore
+.Rhistory
+^\.git$
+^README\.html$
