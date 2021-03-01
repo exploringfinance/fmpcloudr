@@ -1,0 +1,62 @@
+fmpc_13f_cik_list       List of all 13F ciks
+fmpc_13f_cik_name       Find name of company by cik
+fmpc_13f_cik_search     Search for 13F ciks
+fmpc_13f_data           13F data for a set of ciks and dates
+fmpc_analyst_outlook    Pull analyst outlook for one or more securities
+fmpc_calendar_events    Dates related to Economic data, IPOs,
+                        dividends, earnings, and splits
+fmpc_cots_data          Get COTS data
+fmpc_cots_symbols       Get list of COTS symbols
+fmpc_cusip_search       Use a cusip to search a company and ticker
+fmpc_earning_call_transcript
+                        Full transcript of earnings call
+fmpc_economic_events    List economic events that can be searched
+fmpc_economic_results   Economic results
+fmpc_financial_bs_is_cf
+                        Get financial data for one or more tickers
+fmpc_financial_dcfv     Discounted Cash Flow Value
+fmpc_financial_metrics
+                        Get financial metrics for one or more tickers
+fmpc_financial_zip      Get a list of Financial ZIP file locations
+fmpc_get_url            GET Request for specific URL
+fmpc_held_by_mfs        List of mutual funds that hold a specified
+                        symbol
+fmpc_holdings_etf       Pull ETF holdings data
+fmpc_market_hours       Current day market hours and holidays
+fmpc_price_batch_eod    Pull all EOD pricing data for a specific date
+fmpc_price_current      Current price
+fmpc_price_forex        Get all foreign exchange quotes
+fmpc_price_full_market
+                        Current Price for an Entire Market
+fmpc_price_history      Historical End of Day pricing data for one or
+                        more symbols
+fmpc_price_history_spldiv
+                        Historical EOD pricing, split, and dividend
+                        data for one or more symbols
+fmpc_price_intraday     Historical End of Day pricing data for one or
+                        more symbols
+fmpc_rss_sec            RSS feed of latest submissions to SEC
+fmpc_security_delisted
+                        Delisted companies
+fmpc_security_dividends
+                        Historical security dividend data
+fmpc_security_gla       Gainers, Losers, and active
+fmpc_security_mrktcap   Pull market capitalization
+fmpc_security_news      Get current news
+fmpc_security_profile   Pull profile for a company
+fmpc_security_ratings   Pull security rating
+fmpc_security_screener
+                        Stock Screener
+fmpc_security_sector    Pull daily returns for all sectors
+fmpc_security_splits    Historical security split data
+fmpc_security_tech_indic
+                        Technical Indicators
+fmpc_set_token          Set FMP Token for all other functions
+fmpc_symbol_search      Search for symbols or companies
+fmpc_symbols_available
+                        Get symbols available through FMP Cloud that
+                        have a profile
+fmpc_symbols_by_market
+                        Get available symbols across markets
+fmpc_symbols_index      Current or historical constituents for a
+                        specific index

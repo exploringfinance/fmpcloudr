@@ -5,9 +5,8 @@
 * local Mac, R 3.6.1
 
 ## R CMD check results
-There were no ERRORs, WARNINGs
+There were no ERRORs, WARNINGs, or NOTEs
 
-1 NOTE to change maintainer
 
 ## Submit reason
-To adjust maintainer
+Fixing tests and adding minor features for COTS
