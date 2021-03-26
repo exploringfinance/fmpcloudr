@@ -2,6 +2,9 @@
 
 ## Release Notes and News
 
+### fmpcloudr 0.1.6
+ETF list, analysis for COTS reports
+
 ### fmpcloudr 0.1.5
 Adding COTS data pull. Fix tests.
 

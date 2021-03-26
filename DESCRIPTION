@@ -1,6 +1,6 @@
 Package: fmpcloudr
 Title: R Access to the 'FMP Cloud' and 'Financial Modeling Prep' API
-Version: 0.1.5
+Version: 0.1.6
 Authors@R: 
     person(given = "Anthony",
            family = "Balentine",
