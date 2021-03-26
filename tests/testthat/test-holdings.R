@@ -58,7 +58,7 @@ test_that("Test holding with API", {
   expect_warning(fmpc_holdings_etf('DBOC'))
   expect_warning(fmpc_holdings_etf('TQQQ','country'))
   expect_warning(fmpc_holdings_etf('DBOC', 'sector'))
-  Sym = fmpc_holdings_etf(c('SPY','TQQQ','NJAN'), 'symbol')
+  Sym = fmpc_holdings_etf(c('SPY','TQQQ'), 'symbol')
   expect_equal(ncol(Sym),4)
   expect_true(nrow(Sym)>500)
   expect_equal(class(Sym)[1],'tbl_df')
