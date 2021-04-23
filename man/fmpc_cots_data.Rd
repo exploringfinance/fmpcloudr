@@ -6,6 +6,7 @@
 \usage{
 fmpc_cots_data(
   cots_sym = "all",
+  type = c("report", "analysis"),
   startDate = Sys.Date() - 30,
   endDate = Sys.Date()
 )
@@ -14,6 +15,8 @@ fmpc_cots_data(
 \item{cots_sym}{COTS symbol that can be found in
 \code{\link{fmpc_cots_symbols}}. Default is 'all'. Date parameters are only
 valid with 'all'. Otherwise the full history is pulled.}
+
+\item{type}{'report' is the raw data, 'analysis' is analysis of raw reports}
 
 \item{startDate}{filter start date in yyyy-mm-dd format.}
 
@@ -32,6 +35,7 @@ Provides raw data from Commitment of Traders report
 # Must set a valid API token
 fmpc_set_token('FMPAPIKEY')
 fmpc_cots_data()
+fmpc_cots_data('gc','analysis')
 
 }
 }
