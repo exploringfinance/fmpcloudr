@@ -122,7 +122,7 @@ hlp_symbolHistory <- function(symbol = 'AAPL',
 
   # Check result for errors and NULL
   result <- hlp_chkResult(result)
-  if (is.null(result$historical)) return(NULL)
+  if (!length(result$historical)) return(NULL)
 
   # Add symbol to column in the data frame and set date as date class
   df = result$historical
