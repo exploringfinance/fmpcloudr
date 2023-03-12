@@ -1,12 +1,10 @@
-# fmpcloudr 0.1.7
+# fmpcloudr 0.1.6
 
 ## Release Notes and News
 
-### fmpcloudr 0.1.7
-Fixed bug related to empty dataframe
-
 ### fmpcloudr 0.1.6
 ETF list, analysis for COTS reports
+Fixed bug related to empty dataframe
 
 ### fmpcloudr 0.1.5
 Adding COTS data pull. Fix tests.
