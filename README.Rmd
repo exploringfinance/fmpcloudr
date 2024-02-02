@@ -21,6 +21,8 @@ knitr::opts_chunk$set(
 ![Downloads](https://cranlogs.r-pkg.org/badges/grand-total/fmpcloudr)
 <!-- badges: end -->
 
+***Get a 15% discount when you sign-up for Financial Modeling Prep (FMP) using [this link](https://intelligence.financialmodelingprep.com/pricing-plans?couponCode=TT)***
+
 R package for accessing the [FMP Cloud](https://fmpcloud.io/) and [Financial Modeling Prep](https://financialmodelingprep.com/) API. `fmpcloudr` can be used interchangeably with either API key. FMP Provides access to a wide range of financial data such as historical prices for stocks, indexes, cryptos, currencies, and commodities. FMP also provides data for 13F, Balance Sheet, Income Statements, Discounted Cash Flow, and much more. Create an account to get an API token and explore the `fmpcloudr` functions to see the capabilities. 
 
 See the [article](https://exploringfinance.github.io/posts/2020-11-01-analyzing-sp500-with-fmp/) on analyzing the S&P 500 to see a detailed analysis and working example using FMP data.
@@ -41,7 +43,7 @@ devtools::install_github("exploringfinance/fmpcloudr")
 
 # Obtain an API Token
 
-Register an API token on [FMP Cloud](https://fmpcloud.io/) or [Financial Modeling Prep](https://financialmodelingprep.com/). To use the package without an API key, see the bottom section 'Examples using a demo API' for API calls on Apple. 
+Register an API token with this [link](https://intelligence.financialmodelingprep.com/pricing-plans?couponCode=TT) (use the link to get the 15% discount!!). To use the package without an API key, see the bottom section 'Examples using a demo API' for API calls on Apple. 
 
 Please note: for most functions, each symbol entered will generate a single API call. `fmpc_set_token` sets time between API calls so that no more than 10 calls will be made per second. However, raw number of calls can be breached depending on the subscription. For example, the free API tier allows for 250 API calls. This will be exceeded if 251 symbols are run through `fmpc_price_history`.
 

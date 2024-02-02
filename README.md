@@ -11,6 +11,10 @@ Version](https://www.r-pkg.org/badges/version/fmpcloudr?color=green)
 ![Downloads](https://cranlogs.r-pkg.org/badges/grand-total/fmpcloudr)
 <!-- badges: end -->
 
+***Get a 15% discount when you sign-up for Financial Modeling Prep (FMP)
+using [this
+link](https://intelligence.financialmodelingprep.com/pricing-plans?couponCode=TT)***
+
 R package for accessing the [FMP Cloud](https://fmpcloud.io/) and
 [Financial Modeling Prep](https://financialmodelingprep.com/) API.
 `fmpcloudr` can be used interchangeably with either API key. FMP
@@ -40,10 +44,11 @@ devtools::install_github("exploringfinance/fmpcloudr")
 
 # Obtain an API Token
 
-Register an API token on [FMP Cloud](https://fmpcloud.io/) or [Financial
-Modeling Prep](https://financialmodelingprep.com/). To use the package
-without an API key, see the bottom section ‘Examples using a demo API’
-for API calls on Apple.
+Register an API token with this
+[link](https://intelligence.financialmodelingprep.com/pricing-plans?couponCode=TT)
+(use the link to get the 15% discount!!). To use the package without an
+API key, see the bottom section ‘Examples using a demo API’ for API
+calls on Apple.
 
 Please note: for most functions, each symbol entered will generate a
 single API call. `fmpc_set_token` sets time between API calls so that no
